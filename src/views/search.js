@@ -14,7 +14,7 @@ const searchTemplate = (data, input, msg) => html`
 <h2 class="search-result">Results:</h2>
 <div>
   ${Object.keys(data).length > 0
-  ? findTemprate(data) : input.length > 0
+  ? findTemplate(data) : input.length > 0
     ? html`<p class="no-res">No coin found with name:<span class="search-input">${input}</span>.  Please make sure you are using the correct input form such as (BTC, ETH, RVN etc.)</p>`
     : html`<p class="no-res">${msg}</p>`}
 </div>`
