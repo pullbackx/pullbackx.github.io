@@ -28,7 +28,6 @@ function decorateContent(ctx, next) {
   next();
 }
 
-render(until(onLogout(), spiner()), root);
 
 async function onLogout() {
   render(spiner(), root)
