@@ -8,7 +8,7 @@ export const logout = api.logout;
 const endpoints = {
     coinInfo: (coin) => `https://min-api.cryptocompare.com/data/blockchain/mining/calculator?fsyms=${coin}&tsyms=USD`,
     coinDifficulty: `https://min-api.cryptocompare.com/data/blockchain/latest?fsym=ETH&api_key=${KEY}`,
-    topCoins: "https://min-api.cryptocompare.com/data/top/totalvolfull?limit=20&tsym=USD",
+    topCoins: "https://min-api.cryptocompare.com/data/top/totalvolfull?limit=15&tsym=USD",
     fullData: (coin) => `https://min-api.cryptocompare.com/data/top/exchanges/full?fsym=${coin}&tsym=USD`
 }
 

@@ -20,6 +20,7 @@ nav {
   color: #f2f2f2;
   align-items: center;
   justify-content: space-between;
+  max-width: 100%;
 }
 .nav-section {
   display: flex;
