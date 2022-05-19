@@ -24,4 +24,4 @@ ___
     * Modular Applications (Dependencies, Packages)
     * SPA-Routing
 
-### I used everything I learned during the course + additional things during its development
+### I used everything I learned during the course + additional things during development
